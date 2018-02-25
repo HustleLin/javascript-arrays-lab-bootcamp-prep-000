@@ -17,7 +17,7 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-  kittens = [name, ...kittens]
+  kittens = [...kittens, name]
   return kittens
 }
 
