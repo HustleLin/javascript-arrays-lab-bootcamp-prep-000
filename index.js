@@ -29,6 +29,5 @@ function removeLastKitten(name) {
 }
 
 function removeFirstKitten(name) {
-  kittens.shift(name);
-  return kittens;
+  return kittens.shift(name);
 }
